@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dash</class>
+ <widget class="QMainWindow" name="Dash">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Comic Sans MS</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionFermer"/>
+   </widget>
+   <widget class="QMenu" name="menuEntr_es">
+    <property name="title">
+     <string>Entrées</string>
+    </property>
+    <property name="separatorsCollapsible">
+     <bool>false</bool>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionBill_In_2"/>
+    <addaction name="actionSend_Funds_2"/>
+    <addaction name="actionEntr_es_cartes"/>
+   </widget>
+   <widget class="QMenu" name="menuSorties">
+    <property name="title">
+     <string>Sorties</string>
+    </property>
+    <addaction name="actionHandpay"/>
+    <addaction name="actionCashout"/>
+    <addaction name="actionSorties_cartes"/>
+   </widget>
+   <widget class="QMenu" name="menuComptes">
+    <property name="title">
+     <string>Comptes</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuA_propos">
+    <property name="title">
+     <string>A propos</string>
+    </property>
+   </widget>
+   <addaction name="menuFichier"/>
+   <addaction name="menuEntr_es"/>
+   <addaction name="menuSorties"/>
+   <addaction name="menuComptes"/>
+   <addaction name="menuA_propos"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionFermer">
+   <property name="text">
+    <string>Fermer</string>
+   </property>
+  </action>
+  <action name="actionBill_In">
+   <property name="text">
+    <string>Bill In</string>
+   </property>
+  </action>
+  <action name="actionSend_Funds">
+   <property name="text">
+    <string>Send Funds</string>
+   </property>
+  </action>
+  <action name="actionEntre_s_cartes">
+   <property name="text">
+    <string>Entreés cartes</string>
+   </property>
+  </action>
+  <action name="actionHandpay">
+   <property name="text">
+    <string>Handpay</string>
+   </property>
+  </action>
+  <action name="actionCashout">
+   <property name="text">
+    <string>Cashout</string>
+   </property>
+  </action>
+  <action name="actionSorties_cartes">
+   <property name="text">
+    <string>Sorties cartes</string>
+   </property>
+  </action>
+  <action name="actionBill_In_2">
+   <property name="text">
+    <string>Bill In</string>
+   </property>
+  </action>
+  <action name="actionSend_Funds_2">
+   <property name="text">
+    <string>Send Funds</string>
+   </property>
+  </action>
+  <action name="actionEntr_es_cartes">
+   <property name="text">
+    <string>Entrées cartes</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
